@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextEditor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="panel" style="visibility: hidden;">
+    <div class="buttons">
+        <label class="label">
+            <input class="inputChanger colorType" type="text" placeholder="black...">
+            <button class="colorBtn"> Text color</button>
+        </label>
+        <label class="label">
+            <input class="inputChanger fontType" type="text" placeholder="18px...">
+            <button class="fontSizeBtn"> Font size</button>
+        </label>
+
+        <label class="label">
+            <input class="inputChanger bgColorType" type="text" placeholder="none...">
+            <button class="bgColorBtn"> Background color</button>
+        </label>
+
+    </div>
+
+</div>
+<button class="toJson" style="display: none;">toJson</button>
+<button class="edit">Edit</button>
+<label>
+    <textarea class="text"></textarea>
+</label>
+<div class="editText" style="display: none"></div>
+preview
+<div class="preview"></div>
+json (console.log too)
+<div class="showMe"></div>
+<script src="edit.js" defer></script>
+</body>
+</html>
